@@ -41,12 +41,11 @@
 
 ul a{
 	transition: all 0.4s ease;
+	display: inline-block;
 }
 
 ul a:hover{
 	transform: scale(1.1);
-	display: inline-block;
-
 }
 
 .btn-1{
