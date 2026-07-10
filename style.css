@@ -44,6 +44,43 @@
 	padding: 12px;
 }
 
+.banner{
+	background-image: url(./assets/banner.jpg);
+	height: 720px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.55);
+    background-blend-mode: darken; 
+}
+
+.banner-content{
+	text-align: center;	
+	max-width: 900px;
+	padding-top: 120px;
+	color: white;
+}
+
+.banner-content h1{
+	font-size: 80px;
+	margin-bottom: 20px;
+}
+
+.banner-content p{
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+.banner-content button{
+	margin-top: 220px;
+}
+
+.italic{
+	font-style: italic;
+}
+
 
 
 
