@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 }
-
+	/* Navigation  */
 .theme-1{
 	background-color: #1D4ED8;
 	color: rgb(255, 255, 255);
@@ -60,7 +60,7 @@ ul a:hover{
 	transition: all 0.5s ease;
 
 }
-
+	/* Banner  */
 .banner{
 	background-image: url(./assets/banner.jpg);
 	height: 720px;
@@ -97,6 +97,8 @@ ul a:hover{
 .italic{
 	font-style: italic;
 }
+
+	/* Meet the speakers  */
 
 .card{
 	margin: 20px;
@@ -169,6 +171,8 @@ ul a:hover{
 .content p{
 	color: #575757;
 }
+
+	/* Billing */
 
 .billing{
 	margin-bottom: 200px;
@@ -334,6 +338,8 @@ ul a:hover{
 	transform: scale(1.05);
 }
 
+	/* Missing Section */
+
 .missing-1{
 	padding: 80px 200px;
 }
@@ -444,3 +450,53 @@ ul a:hover{
 	font-weight: 500;
 }
 
+
+	/* Footer */
+
+footer{
+	background-color: #0D1B2A;
+	padding: 30px 80px;
+}
+
+.footer-top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-left{
+	display: flex;
+	gap: 50px;
+}
+
+.footer-left span{
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.footer-right{
+    display: flex;
+    gap: 20px;
+}
+
+footer i{
+	color: white;
+}
+
+.footer-right i{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+footer hr{
+    margin: 25px 0;
+    border: none;
+    border-top: solid #444 1px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
