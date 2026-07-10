@@ -1,0 +1,49 @@
+/* Universal Style */
+*{
+	font-family: "Inter",'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+}
+
+.theme-1{
+	background-color: #1D4ED8;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.topbar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	height: 100px;
+}
+
+.navigation{
+	display: flex;
+	list-style: none;
+	gap: 24px;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: rgb(36, 33, 33);
+}
+
+.btn-1{
+	width: 200px;
+	height: 50px;
+	border: 0;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 12px;
+}
+
+
+
+
