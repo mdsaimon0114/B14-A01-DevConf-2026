@@ -39,11 +39,14 @@
 	color: rgb(36, 33, 33);
 }
 
+ul a{
+	transition: all 0.3s ease;
+}
+
 ul a:hover{
 	transform: scale(1.1);
 	display: inline-block;
-	transition: ease;
-	transition-duration: 0.4s;
+
 }
 
 .btn-1{
@@ -54,6 +57,8 @@ ul a:hover{
 	font-size: 18px;
 	font-weight: 700;
 	padding: 12px;
+	transition: all 0.5s ease;
+
 }
 
 .banner{
@@ -98,13 +103,12 @@ ul a:hover{
 	border: solid grey 3px;
 	border-radius: 10px;
 	overflow: hidden;
+	transition: all 0.6s ease;
 }
 
 .card:hover{
 	cursor: pointer;
 	box-shadow: grey 0px 0px 15px;
-	transition: ease-in-out;
-	transition-duration: 0.6s;
 	transform: scale(1.05);
 }
 
@@ -118,7 +122,7 @@ ul a:hover{
 	margin-top: 100px;
 	margin-left: 60px;
 	margin-right: 60px;
-	margin-bottom: 300px;
+	margin-bottom: 100px;
 	padding: 20px;
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
@@ -144,5 +148,183 @@ ul a:hover{
 	padding-bottom: 20px;
 }
 
+.content{
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.content h1{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+
+.content p{
+	color: #575757;
+}
+
+.billing{
+	margin-bottom: 200px;
+}
+
+.bill{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap:25px;
+}
+
+.standard{
+	align-items: left;
+	border: solid grey 1px;
+	border-radius: 10px;
+	padding: 25px;
+	width: 300px;
+	transition: all 0.3s ease;
+	color: #333333;
+}
+
+.standard h1{
+	color: black;
+}
+
+.standard:hover{
+	box-shadow: grey 0px 0px 15px;
+}
+
+
+.standard ul{
+	border-top: 1px solid grey;
+    padding-top: 16px;
+    margin-top: 16px;
+	margin-left: 18px;
+
+}
+.standard ul li{
+	margin: 10px;
+}
+.standard button{
+	width: 100%;
+	border: 0;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 12px;
+	color: #2563EB;
+	border: solid #2563EB 1px;
+	cursor: pointer;
+	margin-top: 20px;
+	background-color: white;
+	transition: all 0.3s ease
+}
+
+.standard button:hover{
+	color:white;
+	background-color: #1D4ED8;
+	border: solid #1D4ED8 1px;
+	transform: scale(1.05);
+
+}
+
+.pro{
+	align-items: left;
+	border-radius: 10px;
+	padding: 25px;
+	width: 300px;
+	transition: all 0.3s ease;
+	color: white;
+	background-color: #0D1B2A;
+		transform: scale(1.05);
+}
+
+.pro .top{
+	color: #93C5FD;
+}
+
+.pro:hover{
+	box-shadow: grey 0px 0px 15px;
+}
+
+.pro ul{
+	border-top: 1px solid grey;
+    padding-top: 16px;
+    margin-top: 16px;
+	margin-left: 18px;
+
+}
+
+.pro ul li{
+	margin: 10px;
+}
+.pro button{
+	width: 100%;
+	border: 0;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 12px;
+	color: white;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	background-color: #1D4ED8;
+	transition: all 0.3s ease
+}
+
+.pro button:hover{
+	transform: scale(1.05);
+}
+
+.team{
+	align-items: left;
+	border: solid #0D1B2A 1px;
+	border-radius: 10px;
+	padding: 25px;
+	width: 300px;
+	transition: all 0.3s ease;
+	color: #333333;
+	background-color: #F8F9FB;
+}
+
+.team h1{
+	color: black;
+}
+
+
+.team:hover{
+	box-shadow: grey 0px 0px 15px;
+}
+
+.team ul{
+	border-top: 1px solid #0D1B2A;
+    padding-top: 16px;
+    margin-top: 16px;
+	margin-left: 18px;
+
+}
+
+.team ul li{
+	margin: 10px;
+}
+.team button{
+	width: 100%;
+	border: solid #0D1B2A 1px;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 12px;
+	color: #0D1B2A;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	background-color: #F8F9FB;
+	transition: all 0.3s ease
+}
+
+.team button:hover{
+	background-color: #0D1B2A;
+	color:#F8F9FB;
+	transform: scale(1.05);
+}
 
 
