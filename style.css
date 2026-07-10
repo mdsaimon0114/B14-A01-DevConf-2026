@@ -11,6 +11,11 @@
 	cursor: pointer;
 }
 
+.theme-1:hover{
+	box-shadow: rgb(51, 136, 240) 0px 0px 15px;
+	transition: ease-out;
+	transition-duration: 0.4s;
+}
 .logo{
 	cursor: pointer;
 }
@@ -32,6 +37,13 @@
 .navigation a{
 	text-decoration: none;
 	color: rgb(36, 33, 33);
+}
+
+ul a:hover{
+	transform: scale(1.1);
+	display: inline-block;
+	transition: ease;
+	transition-duration: 0.4s;
 }
 
 .btn-1{
@@ -81,6 +93,56 @@
 	font-style: italic;
 }
 
+.card{
+	margin: 20px;
+	border: solid grey 3px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card:hover{
+	cursor: pointer;
+	box-shadow: grey 0px 0px 15px;
+	transition: ease-in-out;
+	transition-duration: 0.6s;
+	transform: scale(1.05);
+}
+
+.card img{
+	width: 100%;
+	object-fit: cover;
+	border-radius: 7px 7px 0px 0px;
+}
+
+.meet-the-speakers{
+	margin-top: 100px;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-bottom: 300px;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+}
+
+.card h3{
+	font-size: 25px;
+	padding-left: 25px;
+	padding-bottom: 12px;
+}
+
+.field{
+	color: #2563EB;
+	font-size: 15px;
+	padding-left: 25px;
+	padding-top: 20px;
+	padding-bottom: 12px;
+}
+
+.designation{
+	color: grey;
+	padding-left: 25px;
+	padding-bottom: 20px;
+}
 
 
 
