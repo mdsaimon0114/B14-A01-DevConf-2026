@@ -520,3 +520,11 @@ footer i:hover{
 	transform: scale(1.2);	
 	transform: translateY(-4px);
 }
+
+.footer-left img{
+	height: 30px;
+}
+
+.footer-left img:hover{
+	cursor: pointer;
+}
