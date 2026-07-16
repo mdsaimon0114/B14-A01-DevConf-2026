@@ -20,6 +20,7 @@ A modern developer conference landing page built with pure HTML5 and CSS3.
 - Footer with social media links
 
 ## 📂 Project Structure
+```
 DevConf-2026/
 ├── index.html
 ├── style.css
@@ -27,6 +28,7 @@ DevConf-2026/
     ├── logo.png
     ├── banner.jpg
     └── speakers/
+```
 
 ## 👤 Author
 **Md. Saimon**
